@@ -4,13 +4,34 @@
     "href": "index.html",
     "title": "Crayfisher",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "At Crayfisher, we bridge the gap between deep domain expertise and AI-native architecture. We move beyond static, point-in-time reports to deliver high-velocity workflows that replace legacy interfaces.\n\n\nWe engineer systems that are self-updating and self-correcting. By integrating automatic data acquisition with real-time visualization, we provide a “living” representation of your assets and environments.\n\n\n\n\nSubsurfaceInfrastructure\n\n\nAdvanced groundwater modeling and automation. We move beyond standard workflows to create agentic systems that oversee model calibration and sensitivity.\n\n\nIntelligent pipeflow and network analysis. Utilizing tools like EPANET within automated pipelines to ensure your infrastructure data is never stale.\n\n\n\n\n\n\n“We aren’t just running simulations; we’re building the next generation of living tools that evolve with your data.”"
+  },
+  {
+    "objectID": "index.html#the-future-of-water-management-is-programmatic",
+    "href": "index.html#the-future-of-water-management-is-programmatic",
+    "title": "Crayfisher",
+    "section": "",
+    "text": "At Crayfisher, we bridge the gap between deep domain expertise and AI-native architecture. We move beyond static, point-in-time reports to deliver high-velocity workflows that replace legacy interfaces.\n\n\nWe engineer systems that are self-updating and self-correcting. By integrating automatic data acquisition with real-time visualization, we provide a “living” representation of your assets and environments.\n\n\n\n\nSubsurfaceInfrastructure\n\n\nAdvanced groundwater modeling and automation. We move beyond standard workflows to create agentic systems that oversee model calibration and sensitivity.\n\n\nIntelligent pipeflow and network analysis. Utilizing tools like EPANET within automated pipelines to ensure your infrastructure data is never stale.\n\n\n\n\n\n\n“We aren’t just running simulations; we’re building the next generation of living tools that evolve with your data.”"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Our Philosophy",
     "section": "",
-    "text": "About this site"
+    "text": "Because a model that isn’t alive is already obsolete.\nWe believe water management shouldn’t rely on static reports and manual data entry. We exist to replace outdated, fragmented tools with autonomous systems that think, update, and correct in real-time—turning modeling from a project milestone into a living utility."
+  },
+  {
+    "objectID": "about.html#our-why",
+    "href": "about.html#our-why",
+    "title": "Our Philosophy",
+    "section": "",
+    "text": "Because a model that isn’t alive is already obsolete.\nWe believe water management shouldn’t rely on static reports and manual data entry. We exist to replace outdated, fragmented tools with autonomous systems that think, update, and correct in real-time—turning modeling from a project milestone into a living utility."
+  },
+  {
+    "objectID": "about.html#the-crayfisher-values",
+    "href": "about.html#the-crayfisher-values",
+    "title": "Our Philosophy",
+    "section": "The Crayfisher Values",
+    "text": "The Crayfisher Values\n\nLive by Design\nIf a model isn’t self-updating, it’s expiring. We build systems that reflect reality now, not reality six months ago.\n\n\nAgentic Oversight\nWe replace manual “button-clicking” with intelligent agents. We value autonomous workflows that free humans for high-level decision-making.\n\n\nTooling the Future\nLegacy GUIs are the bottleneck. We build modern, programmatic tools designed for AI integration, not human limitation.\n\n\nRadical Efficiency\nIf it can be automated, it must be. We eliminate manual ingestion errors to focus on what matters: the insight."
   }
 ]

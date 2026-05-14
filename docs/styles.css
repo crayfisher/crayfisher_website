@@ -1,1 +1,12 @@
-/* css styles */
+/* Custom styles for Crayfisher */
+.navbar {
+    border-bottom: 1px solid #444;
+}
+
+h1, h2, h3 {
+    color: #00bc8c; /* Darkly primary color accent */
+}
+
+.title {
+    font-weight: 700;
+}

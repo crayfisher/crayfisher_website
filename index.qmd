@@ -1,7 +1,28 @@
 ---
 title: "Crayfisher"
+subtitle: "Autonomous Modeling. Agentic Insights."
 ---
 
-This is a Quarto website.
+## The Future of Water Management is Programmatic
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+At **Crayfisher**, we bridge the gap between deep domain expertise and AI-native architecture. We move beyond static, point-in-time reports to deliver high-velocity workflows that replace legacy interfaces.
+
+### Autonomous Live Models
+We engineer systems that are **self-updating** and **self-correcting**. By integrating automatic data acquisition with real-time visualization, we provide a "living" representation of your assets and environments.
+
+### Our Core Domains
+
+::: {.panel-tabset}
+## Subsurface
+Advanced groundwater modeling and automation. We move beyond standard workflows to create agentic systems that oversee model calibration and sensitivity.
+
+## Infrastructure
+Intelligent pipeflow and network analysis. Utilizing tools like EPANET within automated pipelines to ensure your infrastructure data is never stale.
+
+<!-- ## Surface
+High-fidelity flood and catchment dynamics. Real-time insights that adapt as weather and landscape data evolve. -->
+:::
+
+---
+
+> "We aren't just running simulations; we’re building the next generation of living tools that evolve with your data."

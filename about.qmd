@@ -1,5 +1,24 @@
 ---
-title: "About"
+title: "Our Philosophy"
 ---
 
-About this site
+## Our Why
+**Because a model that isn't alive is already obsolete.**
+
+We believe water management shouldn't rely on static reports and manual data entry. We exist to replace outdated, fragmented tools with autonomous systems that think, update, and correct in real-time—turning modeling from a project milestone into a living utility.
+
+---
+
+## The Crayfisher Values
+
+### Live by Design
+If a model isn’t self-updating, it’s expiring. We build systems that reflect reality *now*, not reality six months ago.
+
+### Agentic Oversight
+We replace manual "button-clicking" with intelligent agents. We value autonomous workflows that free humans for high-level decision-making.
+
+### Tooling the Future
+Legacy GUIs are the bottleneck. We build modern, programmatic tools designed for AI integration, not human limitation.
+
+### Radical Efficiency
+If it can be automated, it must be. We eliminate manual ingestion errors to focus on what matters: the insight.
