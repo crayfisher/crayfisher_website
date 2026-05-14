@@ -1,0 +1,17 @@
+# Quarto intermediate and cache files
+**/*.quarto_ipynb
+/.quarto/
+
+# Build directory (DO NOT ignore if using GitHub Pages 'docs' method)
+# /docs/ 
+
+# Project-level configuration
+.Rproj.user
+.ipynb_checkpoints
+
+# Operating system files
+.DS_Store
+
+
+
+
