@@ -4,14 +4,35 @@
     "href": "index.html",
     "title": "Crayfisher",
     "section": "",
-    "text": "At Crayfisher, we bridge the gap between deep domain expertise and AI-native architecture. We move beyond static, point-in-time reports to deliver high-velocity workflows that replace legacy interfaces.\n\n\nWe engineer systems that are self-updating and self-correcting. By integrating automatic data acquisition with real-time visualization, we provide a “living” representation of your assets and environments.\n\n\n\n\nSubsurfaceInfrastructure\n\n\nAdvanced groundwater modeling and automation. We move beyond standard workflows to create agentic systems that oversee model calibration and sensitivity.\n\n\nIntelligent pipeflow and network analysis. Utilizing tools like EPANET within automated pipelines to ensure your infrastructure data is never stale.\n\n\n\n\n\n\n“We aren’t just running simulations; we’re building the next generation of living tools that evolve with your data.”"
+    "text": "At Crayfisher, we bridge the gap between deep domain expertise and AI-native architecture. We move beyond static, point-in-time reports to deliver high-velocity workflows that replace legacy interfaces."
   },
   {
     "objectID": "index.html#the-future-of-water-management-is-programmatic",
     "href": "index.html#the-future-of-water-management-is-programmatic",
     "title": "Crayfisher",
-    "section": "",
-    "text": "At Crayfisher, we bridge the gap between deep domain expertise and AI-native architecture. We move beyond static, point-in-time reports to deliver high-velocity workflows that replace legacy interfaces.\n\n\nWe engineer systems that are self-updating and self-correcting. By integrating automatic data acquisition with real-time visualization, we provide a “living” representation of your assets and environments.\n\n\n\n\nSubsurfaceInfrastructure\n\n\nAdvanced groundwater modeling and automation. We move beyond standard workflows to create agentic systems that oversee model calibration and sensitivity.\n\n\nIntelligent pipeflow and network analysis. Utilizing tools like EPANET within automated pipelines to ensure your infrastructure data is never stale.\n\n\n\n\n\n\n“We aren’t just running simulations; we’re building the next generation of living tools that evolve with your data.”"
+    "section": "The Future of Water Management is Programmatic",
+    "text": "The Future of Water Management is Programmatic\n\nAutonomous Live Models\nWe engineer systems that are self-updating and self-correcting. By integrating automatic data acquisition with real-time visualization, we provide a “living” representation of your assets and environments.\n\n\nOur Core Domains\n\nSubsurfaceInfrastructure\n\n\nAdvanced groundwater modeling and automation. We move beyond standard workflows to create agentic systems that oversee model calibration and sensitivity.\n\n\nIntelligent pipeflow and network analysis. Utilizing tools like EPANET within automated pipelines to ensure your infrastructure data is never stale."
+  },
+  {
+    "objectID": "index.html#apps-gallery",
+    "href": "index.html#apps-gallery",
+    "title": "Crayfisher",
+    "section": "Apps Gallery",
+    "text": "Apps Gallery\nOur growing suite of web-based tools designed for groundwater modelers and environmental managers. These applications run directly in your browser, enabling instant analysis, visualization, and validation of simulation datasets.\n\n  \n    \n      \n        \n      \n      \n        lst reader\n        MODFLOW listing file reader and visualiser\n        \n          Upload, parse, and dynamically analyze water budget calculations, solver convergence performance, and time-step execution details from MODFLOW listing files.\n        \n        Launch App ↗\n      \n    \n  \n  \n    \n      \n        \n      \n      \n        heads visualiser\n        MODFLOW heads visualiser for mf6, usg, mf2005\n        \n          Interactive, web-native 2D and 3D visualization of hydraulic heads, drawdown distributions, and simulated water levels across different stress periods.\n        \n        Launch App ↗\n      \n    \n  \n\n\nMore specialized modeling apps are in active development. This gallery will be continuously expanded in the future."
+  },
+  {
+    "objectID": "index.html#web-modelling-platform-development",
+    "href": "index.html#web-modelling-platform-development",
+    "title": "Crayfisher",
+    "section": "Web Modelling Platform Development",
+    "text": "Web Modelling Platform Development\n\nPlatform for Integration of Models with Data\nWe build cloud-native platforms that transform static simulations into dynamic software assets. By linking numerical engines with real-time field observations, we ensure models adapt continuously.\n\n  \n    Living Models Powered by Live Data\n    \n      Traditional modeling relies on static files compiled at specific milestones. Our web platforms automate the ingestion of field data directly into numerical setups.\n    \n    \n      By integrating models into cloud infrastructures, we enable automated re-calibration, sensitivity checks, and real-time visualization of hydrogeological datasets.\n    \n    \n       Model-Data Integration: Unifying live telemetry and sensor networks with simulation runs.\n       Automated Workflows: Orchestrating background computations as new data streams arrive.\n       Stakeholder Accessibility: Secure, intuitive dashboards for scenario exploration without desktop GUIs.\n    \n  \n  \n    \n      \n        \n        Environmental Data\n        Sensors & Feeds\n      \n      \n        \n      \n      \n        \n        MODFLOW Engine\n        Cloud Simulation\n      \n      \n        \n      \n      \n        \n        Web Platform\n        Real-time Insights"
+  },
+  {
+    "objectID": "index.html#consulting-services",
+    "href": "index.html#consulting-services",
+    "title": "Crayfisher",
+    "section": "Consulting Services",
+    "text": "Consulting Services\nWe provide expert numerical modeling and engineering consulting. Our workflows are designed from day one to be programmatic, version-controlled, and ready for integration with modern web applications and artificial intelligence.\n\n  \n    \n      \n      Scripted MODFLOW\n      MODFLOW models fully scripted for fast development, complete reproducibility, and standard-setting modern workflow efficiency.\n    \n  \n  \n  \n    \n      \n      Applied Hydrology\n      Specialized simulations for mine dewatering, water resources management, environmental impact assessment, and brine resource estimation.\n    \n  \n  \n  \n    \n      \n      Uncertainty Analysis\n      Advanced parameter estimation and uncertainty analysis utilizing PEST to quantify model reliability and mitigate decision risk.\n    \n  \n\n  \n    \n      \n      Automated Workflows\n      Designed from the start for automated workflow execution and seamless updatability as new environmental data arrives.\n    \n  \n\n  \n    \n      \n      AI Integration\n      Engineered with programmatic APIs and clean data schemas, ready for seamless integration with AI agents and analytical engines.\n    \n  \n\n  \n    \n      \n      Transparency & Compatibility\n      Full version control and clean documentation for total transparency, designed to be fully compatible with our modern web platform.\n    \n  \n\n\n\n“We aren’t just running simulations; we’re building the next generation of living tools that evolve with your data.”"
   },
   {
     "objectID": "about.html",

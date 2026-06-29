@@ -4,9 +4,16 @@ project:
 website:
   title: "Crayfisher"
   navbar:
+    logo: logo-small.png
     left:
       - href: index.qmd
         text: Home
+      - href: index.qmd#apps-gallery
+        text: Apps Gallery
+      - href: index.qmd#web-modelling-platform-development
+        text: Web Platform
+      - href: index.qmd#consulting-services
+        text: Consulting
       - href: about.qmd
         text: Our Philosophy
       # - icon: github

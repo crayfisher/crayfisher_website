@@ -1,28 +1,199 @@
 ---
-title: "Crayfisher"
-subtitle: "Autonomous Modeling. Agentic Insights."
+title: ""
 ---
+
+::::: {.grid .align-items-center}
+::: {.g-col-12 .g-col-md-7}
+# **Crayfisher** {.title}
+
+### *Autonomous Modeling. Agentic Insights.*
+
+At **Crayfisher**, we bridge the gap between deep domain expertise and AI-native architecture. We move beyond static, point-in-time reports to deliver high-velocity workflows that replace legacy interfaces.
+:::
+
+::: {.g-col-12 .g-col-md-5 .text-center}
+![](logo-large.png){width="90%" style="filter: drop-shadow(0 0 25px rgba(0, 188, 140, 0.25));"}
+:::
+:::::
 
 ## The Future of Water Management is Programmatic
 
-At **Crayfisher**, we bridge the gap between deep domain expertise and AI-native architecture. We move beyond static, point-in-time reports to deliver high-velocity workflows that replace legacy interfaces.
-
 ### Autonomous Live Models
+
 We engineer systems that are **self-updating** and **self-correcting**. By integrating automatic data acquisition with real-time visualization, we provide a "living" representation of your assets and environments.
 
 ### Our Core Domains
 
-::: {.panel-tabset}
+::: panel-tabset
 ## Subsurface
+
 Advanced groundwater modeling and automation. We move beyond standard workflows to create agentic systems that oversee model calibration and sensitivity.
 
 ## Infrastructure
+
 Intelligent pipeflow and network analysis. Utilizing tools like EPANET within automated pipelines to ensure your infrastructure data is never stale.
 
+```{=html}
 <!-- ## Surface
 High-fidelity flood and catchment dynamics. Real-time insights that adapt as weather and landscape data evolve. -->
+```
 :::
 
----
+------------------------------------------------------------------------
+
+## Apps Gallery
+
+Our growing suite of web-based tools designed for groundwater modelers and environmental managers. These applications run directly in your browser, enabling instant analysis, visualization, and validation of simulation datasets.
+
+```{=html}
+<div class="row g-4 mt-2">
+  <div class="col-md-6">
+    <div class="app-card">
+      <a href="https://lst.crayfisher.com" target="_blank" class="app-thumbnail-container">
+        <img src="lst.png" class="app-thumbnail" alt="lst reader thumbnail">
+      </a>
+      <div class="app-card-body">
+        <h4 class="app-card-title">lst reader</h4>
+        <div class="app-card-subtitle">MODFLOW listing file reader and visualiser</div>
+        <p class="app-card-text">
+          Upload, parse, and dynamically analyze water budget calculations, solver convergence performance, and time-step execution details from MODFLOW listing files.
+        </p>
+        <a href="https://lst.crayfisher.com" class="btn btn-outline-primary app-btn" target="_blank">Launch App ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="app-card">
+      <a href="https://heads.crayfisher.com" target="_blank" class="app-thumbnail-container">
+        <img src="heads.png" class="app-thumbnail" alt="heads visualiser thumbnail">
+      </a>
+      <div class="app-card-body">
+        <h4 class="app-card-title">heads visualiser</h4>
+        <div class="app-card-subtitle">MODFLOW heads visualiser for mf6, usg, mf2005</div>
+        <p class="app-card-text">
+          Interactive, web-native 2D and 3D visualization of hydraulic heads, drawdown distributions, and simulated water levels across different stress periods.
+        </p>
+        <a href="https://heads.crayfisher.com" class="btn btn-outline-primary app-btn" target="_blank">Launch App ↗</a>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+<p class="text-center text-white-50 mt-4">
+  <em>More specialized modeling apps are in active development. This gallery will be continuously expanded in the future.</em>
+</p>
+
+------------------------------------------------------------------------
+
+## Web Modelling Platform Development
+
+### Platform for Integration of Models with Data
+
+We build cloud-native platforms that transform static simulations into dynamic software assets. By linking numerical engines with real-time field observations, we ensure models adapt continuously.
+
+```{=html}
+<div class="row align-items-center platform-showcase g-5">
+  <div class="col-lg-6">
+    <h4 class="platform-subtitle">Living Models Powered by Live Data</h4>
+    <p>
+      Traditional modeling relies on static files compiled at specific milestones. Our web platforms automate the ingestion of field data directly into numerical setups.
+    </p>
+    <p>
+      By integrating models into cloud infrastructures, we enable automated re-calibration, sensitivity checks, and real-time visualization of hydrogeological datasets.
+    </p>
+    <ul class="platform-list">
+      <li><i class="bi bi-link-45deg text-accent"></i> <strong>Model-Data Integration:</strong> Unifying live telemetry and sensor networks with simulation runs.</li>
+      <li><i class="bi bi-hdd-network text-accent"></i> <strong>Automated Workflows:</strong> Orchestrating background computations as new data streams arrive.</li>
+      <li><i class="bi bi-display text-accent"></i> <strong>Stakeholder Accessibility:</strong> Secure, intuitive dashboards for scenario exploration without desktop GUIs.</li>
+    </ul>
+  </div>
+  <div class="col-lg-6">
+    <div class="platform-visual">
+      <div class="visual-node data-node">
+        <i class="bi bi-database-fill-down"></i>
+        <span>Environmental Data</span>
+        <small>Sensors & Feeds</small>
+      </div>
+      <div class="visual-flow-arrow">
+        <i class="bi bi-arrow-right flow-arrow-1"></i>
+      </div>
+      <div class="visual-node model-node">
+        <i class="bi bi-cpu-fill"></i>
+        <span>MODFLOW Engine</span>
+        <small>Cloud Simulation</small>
+      </div>
+      <div class="visual-flow-arrow">
+        <i class="bi bi-arrow-right flow-arrow-2"></i>
+      </div>
+      <div class="visual-node web-node">
+        <i class="bi bi-pc-display-horizontal"></i>
+        <span>Web Platform</span>
+        <small>Real-time Insights</small>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+------------------------------------------------------------------------
+
+## Consulting Services
+
+We provide expert numerical modeling and engineering consulting. Our workflows are designed from day one to be programmatic, version-controlled, and ready for integration with modern web applications and artificial intelligence.
+
+```{=html}
+<div class="row g-4 mt-2">
+  <div class="col-md-6 col-lg-4">
+    <div class="service-card">
+      <div class="service-icon"><i class="bi bi-file-earmark-code"></i></div>
+      <h4 class="service-title">Scripted MODFLOW</h4>
+      <p class="service-text">MODFLOW models fully scripted for fast development, complete reproducibility, and standard-setting modern workflow efficiency.</p>
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-lg-4">
+    <div class="service-card">
+      <div class="service-icon"><i class="bi bi-droplet-half"></i></div>
+      <h4 class="service-title">Applied Hydrology</h4>
+      <p class="service-text">Specialized simulations for mine dewatering, water resources management, environmental impact assessment, and brine resource estimation.</p>
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-lg-4">
+    <div class="service-card">
+      <div class="service-icon"><i class="bi bi-graph-up-arrow"></i></div>
+      <h4 class="service-title">Uncertainty Analysis</h4>
+      <p class="service-text">Advanced parameter estimation and uncertainty analysis utilizing PEST to quantify model reliability and mitigate decision risk.</p>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-4">
+    <div class="service-card">
+      <div class="service-icon"><i class="bi bi-arrow-repeat"></i></div>
+      <h4 class="service-title">Automated Workflows</h4>
+      <p class="service-text">Designed from the start for automated workflow execution and seamless updatability as new environmental data arrives.</p>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-4">
+    <div class="service-card">
+      <div class="service-icon"><i class="bi bi-robot"></i></div>
+      <h4 class="service-title">AI Integration</h4>
+      <p class="service-text">Engineered with programmatic APIs and clean data schemas, ready for seamless integration with AI agents and analytical engines.</p>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-4">
+    <div class="service-card">
+      <div class="service-icon"><i class="bi bi-shield-check"></i></div>
+      <h4 class="service-title">Transparency & Compatibility</h4>
+      <p class="service-text">Full version control and clean documentation for total transparency, designed to be fully compatible with our modern web platform.</p>
+    </div>
+  </div>
+</div>
+```
+
+------------------------------------------------------------------------
 
 > "We aren't just running simulations; we’re building the next generation of living tools that evolve with your data."
