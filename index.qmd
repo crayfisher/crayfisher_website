@@ -43,46 +43,9 @@ High-fidelity flood and catchment dynamics. Real-time insights that adapt as wea
 
 ## Apps Gallery
 
-Our growing suite of web-based tools designed for groundwater modelers and environmental managers. These applications run directly in your browser, enabling instant analysis, visualization, and validation of simulation datasets.
+Our growing suite of web-based tools runs directly in your browser, enabling instant analysis, visualization, and validation of simulation datasets.
 
-```{=html}
-<div class="row g-4 mt-2">
-  <div class="col-md-6">
-    <div class="app-card">
-      <a href="https://lst.crayfisher.com" target="_blank" class="app-thumbnail-container">
-        <img src="lst.png" class="app-thumbnail" alt="lst reader thumbnail">
-      </a>
-      <div class="app-card-body">
-        <h4 class="app-card-title">lst reader</h4>
-        <div class="app-card-subtitle">MODFLOW listing file reader and visualiser</div>
-        <p class="app-card-text">
-          Upload, parse, and dynamically analyze water budget calculations, solver convergence performance, and time-step execution details from MODFLOW listing files.
-        </p>
-        <a href="https://lst.crayfisher.com" class="btn btn-outline-primary app-btn" target="_blank">Launch App ↗</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="app-card">
-      <a href="https://heads.crayfisher.com" target="_blank" class="app-thumbnail-container">
-        <img src="heads.png" class="app-thumbnail" alt="heads visualiser thumbnail">
-      </a>
-      <div class="app-card-body">
-        <h4 class="app-card-title">heads visualiser</h4>
-        <div class="app-card-subtitle">MODFLOW heads visualiser for mf6, usg, mf2005</div>
-        <p class="app-card-text">
-          Interactive, web-native 2D and 3D visualization of hydraulic heads, drawdown distributions, and simulated water levels across different stress periods.
-        </p>
-        <a href="https://heads.crayfisher.com" class="btn btn-outline-primary app-btn" target="_blank">Launch App ↗</a>
-      </div>
-    </div>
-  </div>
-</div>
-```
-
-<p class="text-center text-white-50 mt-4">
-  <em>More specialized modeling apps are in active development. This gallery will be continuously expanded in the future.</em>
-</p>
+<a href="apps.qmd" class="btn btn-outline-primary app-btn">Explore the Apps Gallery ↗</a>
 
 ------------------------------------------------------------------------
 
@@ -104,6 +67,7 @@ We build cloud-native platforms that transform static simulations into dynamic s
     </p>
     <ul class="platform-list">
       <li><i class="bi bi-link-45deg text-accent"></i> <strong>Model-Data Integration:</strong> Unifying live telemetry and sensor networks with simulation runs.</li>
+      <li><i class="bi bi-robot text-accent"></i> <strong>AI Orchestration:</strong> Agentic systems that decide when to re-run, re-calibrate, and validate models as new data arrives — turning raw streams into trusted results.</li>
       <li><i class="bi bi-hdd-network text-accent"></i> <strong>Automated Workflows:</strong> Orchestrating background computations as new data streams arrive.</li>
       <li><i class="bi bi-display text-accent"></i> <strong>Stakeholder Accessibility:</strong> Secure, intuitive dashboards for scenario exploration without desktop GUIs.</li>
     </ul>
@@ -118,13 +82,21 @@ We build cloud-native platforms that transform static simulations into dynamic s
       <div class="visual-flow-arrow">
         <i class="bi bi-arrow-right flow-arrow-1"></i>
       </div>
+      <div class="visual-node ai-node">
+        <i class="bi bi-robot"></i>
+        <span>AI Orchestration</span>
+        <small>Agentic Control</small>
+      </div>
+      <div class="visual-flow-arrow">
+        <i class="bi bi-arrow-right flow-arrow-2"></i>
+      </div>
       <div class="visual-node model-node">
         <i class="bi bi-cpu-fill"></i>
         <span>MODFLOW Engine</span>
         <small>Cloud Simulation</small>
       </div>
       <div class="visual-flow-arrow">
-        <i class="bi bi-arrow-right flow-arrow-2"></i>
+        <i class="bi bi-arrow-right flow-arrow-3"></i>
       </div>
       <div class="visual-node web-node">
         <i class="bi bi-pc-display-horizontal"></i>
@@ -197,3 +169,33 @@ We provide expert numerical modeling and engineering consulting. Our workflows a
 ------------------------------------------------------------------------
 
 > "We aren't just running simulations; we’re building the next generation of living tools that evolve with your data."
+
+------------------------------------------------------------------------
+
+## Contact {#contact}
+
+Let's talk about your modelling, automation, or web-platform needs.
+
+```{=html}
+<div class="contact-bar">
+  <a href="https://www.linkedin.com/in/pawel-rakowski-bb853118/" target="_blank" rel="noopener" class="contact-link">
+    <i class="bi bi-linkedin"></i> <span>LinkedIn — Pawel Rakowski</span>
+  </a>
+  <!-- Email is assembled by JS at runtime so the plain address never appears in
+       the page source (defeats automated mailto harvesters). -->
+  <a id="cf-email" href="#" class="contact-link">
+    <i class="bi bi-envelope-fill"></i> <span>Show email</span>
+  </a>
+</div>
+<script>
+  (function () {
+    var a = document.getElementById('cf-email');
+    if (!a) return;
+    var user = ['info'].join('');
+    var domain = ['crayfisher', 'com'].join('.');
+    var addr = user + '@' + domain;
+    a.setAttribute('href', 'mailto:' + addr);
+    a.querySelector('span').textContent = addr;
+  })();
+</script>
+```

@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#apps-gallery"> 
+    <a class="nav-link" href="./apps.html"> 
 <span class="menu-text">Apps Gallery</span></a>
   </li>  
   <li class="nav-item">
@@ -115,6 +115,22 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Our Philosophy</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#contact"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/crayfisher"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/pawel-rakowski-bb853118/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -143,6 +159,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#platform-for-integration-of-models-with-data" id="toc-platform-for-integration-of-models-with-data" class="nav-link" data-scroll-target="#platform-for-integration-of-models-with-data">Platform for Integration of Models with Data</a></li>
   </ul></li>
   <li><a href="#consulting-services" id="toc-consulting-services" class="nav-link" data-scroll-target="#consulting-services">Consulting Services</a></li>
+  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
   </ul>
 </nav>
     </div>
@@ -190,42 +207,8 @@ High-fidelity flood and catchment dynamics. Real-time insights that adapt as wea
 </section>
 <section id="apps-gallery" class="level2">
 <h2 class="anchored" data-anchor-id="apps-gallery">Apps Gallery</h2>
-<p>Our growing suite of web-based tools designed for groundwater modelers and environmental managers. These applications run directly in your browser, enabling instant analysis, visualization, and validation of simulation datasets.</p>
-<div class="row g-4 mt-2">
-  <div class="col-md-6">
-    <div class="app-card">
-      <a href="https://lst.crayfisher.com" target="_blank" class="app-thumbnail-container">
-        <img src="lst.png" class="app-thumbnail" alt="lst reader thumbnail">
-      </a>
-      <div class="app-card-body">
-        <h4 class="app-card-title anchored">lst reader</h4>
-        <div class="app-card-subtitle">MODFLOW listing file reader and visualiser</div>
-        <p class="app-card-text">
-          Upload, parse, and dynamically analyze water budget calculations, solver convergence performance, and time-step execution details from MODFLOW listing files.
-        </p>
-        <a href="https://lst.crayfisher.com" class="btn btn-outline-primary app-btn" target="_blank">Launch App ↗</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="app-card">
-      <a href="https://heads.crayfisher.com" target="_blank" class="app-thumbnail-container">
-        <img src="heads.png" class="app-thumbnail" alt="heads visualiser thumbnail">
-      </a>
-      <div class="app-card-body">
-        <h4 class="app-card-title anchored">heads visualiser</h4>
-        <div class="app-card-subtitle">MODFLOW heads visualiser for mf6, usg, mf2005</div>
-        <p class="app-card-text">
-          Interactive, web-native 2D and 3D visualization of hydraulic heads, drawdown distributions, and simulated water levels across different stress periods.
-        </p>
-        <a href="https://heads.crayfisher.com" class="btn btn-outline-primary app-btn" target="_blank">Launch App ↗</a>
-      </div>
-    </div>
-  </div>
-</div>
-<p class="text-center text-white-50 mt-4">
-<em>More specialized modeling apps are in active development. This gallery will be continuously expanded in the future.</em>
-</p>
+<p>Our growing suite of web-based tools runs directly in your browser, enabling instant analysis, visualization, and validation of simulation datasets.</p>
+<p><a href="./apps.html" class="btn btn-outline-primary app-btn">Explore the Apps Gallery ↗</a></p>
 <hr>
 </section>
 <section id="web-modelling-platform-development" class="level2">
@@ -244,6 +227,7 @@ High-fidelity flood and catchment dynamics. Real-time insights that adapt as wea
     </p>
     <ul class="platform-list">
       <li><i class="bi bi-link-45deg text-accent"></i> <strong>Model-Data Integration:</strong> Unifying live telemetry and sensor networks with simulation runs.</li>
+      <li><i class="bi bi-robot text-accent"></i> <strong>AI Orchestration:</strong> Agentic systems that decide when to re-run, re-calibrate, and validate models as new data arrives — turning raw streams into trusted results.</li>
       <li><i class="bi bi-hdd-network text-accent"></i> <strong>Automated Workflows:</strong> Orchestrating background computations as new data streams arrive.</li>
       <li><i class="bi bi-display text-accent"></i> <strong>Stakeholder Accessibility:</strong> Secure, intuitive dashboards for scenario exploration without desktop GUIs.</li>
     </ul>
@@ -258,13 +242,21 @@ High-fidelity flood and catchment dynamics. Real-time insights that adapt as wea
       <div class="visual-flow-arrow">
         <i class="bi bi-arrow-right flow-arrow-1"></i>
       </div>
+      <div class="visual-node ai-node">
+        <i class="bi bi-robot"></i>
+        <span>AI Orchestration</span>
+        <small>Agentic Control</small>
+      </div>
+      <div class="visual-flow-arrow">
+        <i class="bi bi-arrow-right flow-arrow-2"></i>
+      </div>
       <div class="visual-node model-node">
         <i class="bi bi-cpu-fill"></i>
         <span>MODFLOW Engine</span>
         <small>Cloud Simulation</small>
       </div>
       <div class="visual-flow-arrow">
-        <i class="bi bi-arrow-right flow-arrow-2"></i>
+        <i class="bi bi-arrow-right flow-arrow-3"></i>
       </div>
       <div class="visual-node web-node">
         <i class="bi bi-pc-display-horizontal"></i>
@@ -333,6 +325,32 @@ High-fidelity flood and catchment dynamics. Real-time insights that adapt as wea
 <blockquote class="blockquote">
 <p>“We aren’t just running simulations; we’re building the next generation of living tools that evolve with your data.”</p>
 </blockquote>
+<hr>
+</section>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p>Let’s talk about your modelling, automation, or web-platform needs.</p>
+<div class="contact-bar">
+  <a href="https://www.linkedin.com/in/pawel-rakowski-bb853118/" target="_blank" rel="noopener" class="contact-link">
+    <i class="bi bi-linkedin"></i> <span>LinkedIn — Pawel Rakowski</span>
+  </a>
+  <!-- Email is assembled by JS at runtime so the plain address never appears in
+       the page source (defeats automated mailto harvesters). -->
+  <a id="cf-email" href="#" class="contact-link">
+    <i class="bi bi-envelope-fill"></i> <span>Show email</span>
+  </a>
+</div>
+<script>
+  (function () {
+    var a = document.getElementById('cf-email');
+    if (!a) return;
+    var user = ['info'].join('');
+    var domain = ['crayfisher', 'com'].join('.');
+    var addr = user + '@' + domain;
+    a.setAttribute('href', 'mailto:' + addr);
+    a.querySelector('span').textContent = addr;
+  })();
+</script>
 
 
 </section>

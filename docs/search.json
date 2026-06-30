@@ -18,14 +18,14 @@
     "href": "index.html#apps-gallery",
     "title": "Crayfisher",
     "section": "Apps Gallery",
-    "text": "Apps Gallery\nOur growing suite of web-based tools designed for groundwater modelers and environmental managers. These applications run directly in your browser, enabling instant analysis, visualization, and validation of simulation datasets.\n\n  \n    \n      \n        \n      \n      \n        lst reader\n        MODFLOW listing file reader and visualiser\n        \n          Upload, parse, and dynamically analyze water budget calculations, solver convergence performance, and time-step execution details from MODFLOW listing files.\n        \n        Launch App ↗\n      \n    \n  \n  \n    \n      \n        \n      \n      \n        heads visualiser\n        MODFLOW heads visualiser for mf6, usg, mf2005\n        \n          Interactive, web-native 2D and 3D visualization of hydraulic heads, drawdown distributions, and simulated water levels across different stress periods.\n        \n        Launch App ↗\n      \n    \n  \n\n\nMore specialized modeling apps are in active development. This gallery will be continuously expanded in the future."
+    "text": "Apps Gallery\nOur growing suite of web-based tools runs directly in your browser, enabling instant analysis, visualization, and validation of simulation datasets.\nExplore the Apps Gallery ↗"
   },
   {
     "objectID": "index.html#web-modelling-platform-development",
     "href": "index.html#web-modelling-platform-development",
     "title": "Crayfisher",
     "section": "Web Modelling Platform Development",
-    "text": "Web Modelling Platform Development\n\nPlatform for Integration of Models with Data\nWe build cloud-native platforms that transform static simulations into dynamic software assets. By linking numerical engines with real-time field observations, we ensure models adapt continuously.\n\n  \n    Living Models Powered by Live Data\n    \n      Traditional modeling relies on static files compiled at specific milestones. Our web platforms automate the ingestion of field data directly into numerical setups.\n    \n    \n      By integrating models into cloud infrastructures, we enable automated re-calibration, sensitivity checks, and real-time visualization of hydrogeological datasets.\n    \n    \n       Model-Data Integration: Unifying live telemetry and sensor networks with simulation runs.\n       Automated Workflows: Orchestrating background computations as new data streams arrive.\n       Stakeholder Accessibility: Secure, intuitive dashboards for scenario exploration without desktop GUIs.\n    \n  \n  \n    \n      \n        \n        Environmental Data\n        Sensors & Feeds\n      \n      \n        \n      \n      \n        \n        MODFLOW Engine\n        Cloud Simulation\n      \n      \n        \n      \n      \n        \n        Web Platform\n        Real-time Insights"
+    "text": "Web Modelling Platform Development\n\nPlatform for Integration of Models with Data\nWe build cloud-native platforms that transform static simulations into dynamic software assets. By linking numerical engines with real-time field observations, we ensure models adapt continuously.\n\n  \n    Living Models Powered by Live Data\n    \n      Traditional modeling relies on static files compiled at specific milestones. Our web platforms automate the ingestion of field data directly into numerical setups.\n    \n    \n      By integrating models into cloud infrastructures, we enable automated re-calibration, sensitivity checks, and real-time visualization of hydrogeological datasets.\n    \n    \n       Model-Data Integration: Unifying live telemetry and sensor networks with simulation runs.\n       AI Orchestration: Agentic systems that decide when to re-run, re-calibrate, and validate models as new data arrives — turning raw streams into trusted results.\n       Automated Workflows: Orchestrating background computations as new data streams arrive.\n       Stakeholder Accessibility: Secure, intuitive dashboards for scenario exploration without desktop GUIs.\n    \n  \n  \n    \n      \n        \n        Environmental Data\n        Sensors & Feeds\n      \n      \n        \n      \n      \n        \n        AI Orchestration\n        Agentic Control\n      \n      \n        \n      \n      \n        \n        MODFLOW Engine\n        Cloud Simulation\n      \n      \n        \n      \n      \n        \n        Web Platform\n        Real-time Insights"
   },
   {
     "objectID": "index.html#consulting-services",
@@ -33,6 +33,13 @@
     "title": "Crayfisher",
     "section": "Consulting Services",
     "text": "Consulting Services\nWe provide expert numerical modeling and engineering consulting. Our workflows are designed from day one to be programmatic, version-controlled, and ready for integration with modern web applications and artificial intelligence.\n\n  \n    \n      \n      Scripted MODFLOW\n      MODFLOW models fully scripted for fast development, complete reproducibility, and standard-setting modern workflow efficiency.\n    \n  \n  \n  \n    \n      \n      Applied Hydrology\n      Specialized simulations for mine dewatering, water resources management, environmental impact assessment, and brine resource estimation.\n    \n  \n  \n  \n    \n      \n      Uncertainty Analysis\n      Advanced parameter estimation and uncertainty analysis utilizing PEST to quantify model reliability and mitigate decision risk.\n    \n  \n\n  \n    \n      \n      Automated Workflows\n      Designed from the start for automated workflow execution and seamless updatability as new environmental data arrives.\n    \n  \n\n  \n    \n      \n      AI Integration\n      Engineered with programmatic APIs and clean data schemas, ready for seamless integration with AI agents and analytical engines.\n    \n  \n\n  \n    \n      \n      Transparency & Compatibility\n      Full version control and clean documentation for total transparency, designed to be fully compatible with our modern web platform.\n    \n  \n\n\n\n“We aren’t just running simulations; we’re building the next generation of living tools that evolve with your data.”"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Crayfisher",
+    "section": "Contact",
+    "text": "Contact\nLet’s talk about your modelling, automation, or web-platform needs.\n\n  \n     LinkedIn — Pawel Rakowski\n  \n  \n  \n     Show email"
   },
   {
     "objectID": "about.html",
@@ -54,5 +61,12 @@
     "title": "Our Philosophy",
     "section": "The Crayfisher Values",
     "text": "The Crayfisher Values\n\nLive by Design\nIf a model isn’t self-updating, it’s expiring. We build systems that reflect reality now, not reality six months ago.\n\n\nAgentic Oversight\nWe replace manual “button-clicking” with intelligent agents. We value autonomous workflows that free humans for high-level decision-making.\n\n\nTooling the Future\nLegacy GUIs are the bottleneck. We build modern, programmatic tools designed for AI integration, not human limitation.\n\n\nRadical Efficiency\nIf it can be automated, it must be. We eliminate manual ingestion errors to focus on what matters: the insight."
+  },
+  {
+    "objectID": "apps.html",
+    "href": "apps.html",
+    "title": "Apps Gallery BETA",
+    "section": "",
+    "text": "Apps Gallery BETA\nOur growing suite of web-based tools designed for groundwater modelers and environmental managers. These applications run directly in your browser, enabling instant analysis, visualization, and validation of simulation datasets.\n\n\n\n\n\n\nThese apps are in beta and under active development. Found a bug or have a request? Each app links to its GitHub repository where you can open an issue.\n\n\n\n\n  \n    \n      \n        \n      \n      \n        lst reader BETA\n        MODFLOW listing file reader and visualiser\n        \n          Upload, parse, and dynamically analyze water budget calculations, solver convergence performance, and time-step execution details from MODFLOW listing files. Inspired by USGS GW_Chart — an interactive, Shiny-based listing file visualiser.\n        \n        Launch App ↗\n         Code\n      \n    \n  \n  \n    \n      \n        \n      \n      \n        heads visualiser BETA\n        MODFLOW heads visualiser for mf6, usg, mf2005\n        \n          Interactive, web-native Shiny-based 2D visualization of hydraulic heads, drawdown distributions, and hydrographs across different stress periods and layers.\n        \n        Launch App ↗\n         Code\n      \n    \n  \n\n\nMore specialized modeling apps are in active development. This gallery will be continuously expanded in the future."
   }
 ]

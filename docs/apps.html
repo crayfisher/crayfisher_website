@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Our Philosophy – Crayfisher</title>
+<title>apps – Crayfisher</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./apps.html"> 
+    <a class="nav-link active" href="./apps.html" aria-current="page"> 
 <span class="menu-text">Apps Gallery</span></a>
   </li>  
   <li class="nav-item">
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Consulting</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Our Philosophy</span></a>
   </li>  
   <li class="nav-item">
@@ -148,65 +148,68 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#our-why" id="toc-our-why" class="nav-link active" data-scroll-target="#our-why">Our Why</a></li>
-  <li><a href="#the-crayfisher-values" id="toc-the-crayfisher-values" class="nav-link" data-scroll-target="#the-crayfisher-values">The Crayfisher Values</a>
-  <ul class="collapse">
-  <li><a href="#live-by-design" id="toc-live-by-design" class="nav-link" data-scroll-target="#live-by-design">Live by Design</a></li>
-  <li><a href="#agentic-oversight" id="toc-agentic-oversight" class="nav-link" data-scroll-target="#agentic-oversight">Agentic Oversight</a></li>
-  <li><a href="#tooling-the-future" id="toc-tooling-the-future" class="nav-link" data-scroll-target="#tooling-the-future">Tooling the Future</a></li>
-  <li><a href="#radical-efficiency" id="toc-radical-efficiency" class="nav-link" data-scroll-target="#radical-efficiency">Radical Efficiency</a></li>
-  </ul></li>
+  <li><a href="#apps-gallery-beta" id="toc-apps-gallery-beta" class="nav-link active" data-scroll-target="#apps-gallery-beta"><strong>Apps Gallery</strong> <span class="beta-badge">BETA</span></a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Our Philosophy</h1>
+
+
+
+<section id="apps-gallery-beta" class="level1 title">
+<h1 class="title"><strong>Apps Gallery</strong> <span class="beta-badge">BETA</span></h1>
+<p>Our growing suite of web-based tools designed for groundwater modelers and environmental managers. These applications run directly in your browser, enabling instant analysis, visualization, and validation of simulation datasets.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<div class="callout-body-container">
+<p>These apps are in <strong>beta</strong> and under active development. Found a bug or have a request? Each app links to its GitHub repository where you can open an issue.</p>
+</div>
+</div>
+</div>
+<div class="row g-4 mt-2">
+  <div class="col-md-6">
+    <div class="app-card">
+      <a href="https://lst.crayfisher.com" target="_blank" class="app-thumbnail-container">
+        <img src="lst.png" class="app-thumbnail" alt="lst reader thumbnail">
+      </a>
+      <div class="app-card-body">
+        <h4 class="app-card-title anchored" data-anchor-id="apps-gallery-beta">lst reader <span class="beta-badge">BETA</span></h4>
+        <div class="app-card-subtitle">MODFLOW listing file reader and visualiser</div>
+        <p class="app-card-text">
+          Upload, parse, and dynamically analyze water budget calculations, solver convergence performance, and time-step execution details from MODFLOW listing files. Inspired by USGS GW_Chart — an interactive, Shiny-based listing file visualiser.
+        </p>
+        <a href="https://lst.crayfisher.com" class="btn btn-outline-primary app-btn" target="_blank">Launch App ↗</a>
+        <a href="https://github.com/crayfisher/MF_lst" class="btn btn-outline-secondary app-btn" target="_blank"><i class="bi bi-github"></i> Code</a>
+      </div>
+    </div>
   </div>
-  
+  <div class="col-md-6">
+    <div class="app-card">
+      <a href="https://heads.crayfisher.com" target="_blank" class="app-thumbnail-container">
+        <img src="heads.png" class="app-thumbnail" alt="heads visualiser thumbnail">
+      </a>
+      <div class="app-card-body">
+        <h4 class="app-card-title anchored">heads visualiser <span class="beta-badge">BETA</span></h4>
+        <div class="app-card-subtitle">MODFLOW heads visualiser for mf6, usg, mf2005</div>
+        <p class="app-card-text">
+          Interactive, web-native Shiny-based 2D visualization of hydraulic heads, drawdown distributions, and hydrographs across different stress periods and layers.
+        </p>
+        <a href="https://heads.crayfisher.com" class="btn btn-outline-primary app-btn" target="_blank">Launch App ↗</a>
+        <a href="https://github.com/crayfisher/MF_heads" class="btn btn-outline-secondary app-btn" target="_blank"><i class="bi bi-github"></i> Code</a>
+      </div>
+    </div>
+  </div>
+</div>
+<p class="text-center text-white-50 mt-4">
+<em>More specialized modeling apps are in active development. This gallery will be continuously expanded in the future.</em>
+</p>
 
 
-</header>
-
-
-<section id="our-why" class="level2">
-<h2 class="anchored" data-anchor-id="our-why">Our Why</h2>
-<p><strong>Because a model that isn’t alive is already obsolete.</strong></p>
-<p>We believe water management shouldn’t rely on static reports and manual data entry. We exist to replace outdated, fragmented tools with autonomous systems that think, update, and correct in real-time—turning modeling from a project milestone into a living utility.</p>
-<hr>
-</section>
-<section id="the-crayfisher-values" class="level2">
-<h2 class="anchored" data-anchor-id="the-crayfisher-values">The Crayfisher Values</h2>
-<section id="live-by-design" class="level3">
-<h3 class="anchored" data-anchor-id="live-by-design">Live by Design</h3>
-<p>If a model isn’t self-updating, it’s expiring. We build systems that reflect reality <em>now</em>, not reality six months ago.</p>
-</section>
-<section id="agentic-oversight" class="level3">
-<h3 class="anchored" data-anchor-id="agentic-oversight">Agentic Oversight</h3>
-<p>We replace manual “button-clicking” with intelligent agents. We value autonomous workflows that free humans for high-level decision-making.</p>
-</section>
-<section id="tooling-the-future" class="level3">
-<h3 class="anchored" data-anchor-id="tooling-the-future">Tooling the Future</h3>
-<p>Legacy GUIs are the bottleneck. We build modern, programmatic tools designed for AI integration, not human limitation.</p>
-</section>
-<section id="radical-efficiency" class="level3">
-<h3 class="anchored" data-anchor-id="radical-efficiency">Radical Efficiency</h3>
-<p>If it can be automated, it must be. We eliminate manual ingestion errors to focus on what matters: the insight.</p>
-
-
-</section>
 </section>
 
 </main> <!-- /main -->

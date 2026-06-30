@@ -26,6 +26,62 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
+/* Continuous, FIXED page background.
+   Previously each section's own translucent background, layered over the theme's
+   scrolling body gradient, produced visible banding/transitions while scrolling
+   (a lighter patch toward the bottom). Pin one full-viewport gradient that does
+   not move on scroll, matching the Shiny apps' backdrop for a consistent family. */
+html { background: #1a0933; }
+body {
+    background: radial-gradient(ellipse at 20% 0%, #2a0f52 0%, #1a0933 55%, #120627 100%) !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+/* Contact section. */
+.contact-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 1rem;
+}
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    border: 1px solid rgba(50, 251, 226, 0.4);
+    border-radius: 30px;
+    background: rgba(50, 251, 226, 0.06);
+    color: #32fbe2 !important;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+}
+.contact-link:hover {
+    background: #32fbe2;
+    color: #150726 !important;
+    box-shadow: 0 0 16px rgba(50, 251, 226, 0.5);
+    transform: translateY(-1px);
+}
+.contact-link i { font-size: 1.2rem; }
+
+/* BETA badge for app tiles / page header. */
+.beta-badge {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 1px 10px;
+    font-size: 0.55em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #1a0933;
+    background: #32fbe2;
+    border-radius: 30px;
+    vertical-align: middle;
+    box-shadow: 0 0 12px rgba(50, 251, 226, 0.5);
+}
+
 .navbar-brand img {
     max-height: 40px;
     margin-right: 10px;
@@ -213,6 +269,13 @@ h1, h2, h3 {
     transform: scale(1.05);
 }
 
+.ai-node i { color: #00bc8c; }
+.ai-node:hover {
+    border-color: #00bc8c;
+    box-shadow: 0 0 15px rgba(0, 188, 140, 0.25);
+    transform: scale(1.05);
+}
+
 .model-node i { color: #9b5de5; }
 .model-node:hover {
     border-color: #9b5de5;
@@ -240,7 +303,11 @@ h1, h2, h3 {
 }
 
 .flow-arrow-2 {
-    animation-delay: 1s !important;
+    animation-delay: 0.66s !important;
+}
+
+.flow-arrow-3 {
+    animation-delay: 1.33s !important;
 }
 
 @keyframes flow-pulse {

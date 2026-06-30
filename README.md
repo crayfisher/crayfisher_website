@@ -13,21 +13,22 @@ git add -A && git commit -m "..." && git push origin main
 A `git push` is the whole deploy — GitHub Pages serves `docs/` directly (no
 Docker, no build step on the server). Allow ~1–2 minutes for Pages to update.
 
-## ⚠️ Keep `docs/.nojekyll`
+## `docs/.nojekyll` and `docs/CNAME` (handled automatically)
 
-`docs/.nojekyll` **must** exist. Without it, GitHub Pages runs the site through
-Jekyll, which breaks Quarto's `site_libs/` assets — the Bootstrap **vapor theme**
-(cards/gradients/animations disappear) and the **bootstrap-icons** webfont
-(infographic `bi bi-*` icons render tiny). `quarto render` does **not** create
-this file, so after rendering confirm it's still there:
+Two files in `docs/` are essential and are **not** generated from `.qmd`:
 
-```bash
-ls docs/.nojekyll || touch docs/.nojekyll
-```
+* **`.nojekyll`** — without it, GitHub Pages runs the site through Jekyll, which
+  breaks Quarto's `site_libs/` assets: the Bootstrap **vapor theme**
+  (cards/gradients/animations) and the **bootstrap-icons** webfont (infographic
+  `bi bi-*` icons render tiny).
+* **`CNAME`** — binds GitHub Pages to the custom domain `crayfisher.com`. If it
+  disappears, the custom domain unbinds.
 
-The robust alternative is `quarto publish gh-pages`, which manages `.nojekyll`
-automatically — but that publishes to a `gh-pages` branch, so only switch to it
-if you also change the Pages source branch in the repo settings.
+Historically `quarto render` **wiped both** (it cleans `docs/`). They are now kept
+in the project root and listed under `project: resources:` in `_quarto.yml`, so
+**every render copies them back into `docs/` automatically** — no manual step.
+If you ever restructure the project, keep that `resources:` entry, or re-add the
+files to `docs/` after rendering.
 
 ## App links
 

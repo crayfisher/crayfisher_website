@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  # Copied verbatim into docs/ on every render so they are NOT wiped (CNAME binds
+  # GitHub Pages to crayfisher.com; .nojekyll stops Jekyll breaking site_libs).
+  resources:
+    - CNAME
+    - .nojekyll
 website:
   title: "Crayfisher"
   navbar:
@@ -8,7 +13,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: index.qmd#apps-gallery
+      - href: apps.qmd
         text: Apps Gallery
       - href: index.qmd#web-modelling-platform-development
         text: Web Platform
@@ -16,10 +21,14 @@ website:
         text: Consulting
       - href: about.qmd
         text: Our Philosophy
-      # - icon: github
-      #   href: https://github.com
-      # - icon: linkedin
-      #   href: https://linkedin.com
+      - href: index.qmd#contact
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/crayfisher
+        text: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/pawel-rakowski-bb853118/
 
 format:
   html:
