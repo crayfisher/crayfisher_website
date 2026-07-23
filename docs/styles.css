@@ -1,15 +1,19 @@
-/* Custom styles for Crayfisher */
-.navbar {
-    background-color: var(--bs-body-bg) !important;
-    border-bottom: 1px solid #444;
+/* Fonts: Space Grotesk site-wide, Orbitron for Crayfisher logo/brand text. */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Orbitron:wght@500..800&display=swap');
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
 }
 
-h1, h2, h3 {
-    color: #00bc8c; /* Darkly primary color accent */
-}
-
-.title {
-    font-weight: 700;
+/* Quarto duplicates a heading's classes onto its wrapping <section> as well as
+   the heading itself, so a bare .brand-font selector leaks into sibling body
+   copy (e.g. the paragraph under the tagline). The wrapper is always a
+   <section> tag while the real heading is h1/h3, so scope by tag name to
+   keep Orbitron on the heading text only. */
+.navbar-title,
+h1.brand-font,
+h3.brand-font {
+    font-family: 'Orbitron', sans-serif;
 }
 
 /* Custom styles for Crayfisher */

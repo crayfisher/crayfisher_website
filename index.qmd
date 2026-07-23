@@ -4,9 +4,9 @@ title: ""
 
 ::::: {.grid .align-items-center}
 ::: {.g-col-12 .g-col-md-7}
-# **Crayfisher** {.title}
+# **Crayfisher** {.title .brand-font}
 
-### *Autonomous Modeling. Agentic Insights.*
+### *Autonomous Modeling. Agentic Insights.* {.brand-font}
 
 At **Crayfisher**, we bridge the gap between deep domain expertise and AI-native architecture. We move beyond static, point-in-time reports to deliver high-velocity workflows that replace legacy interfaces.
 :::
