@@ -6,6 +6,7 @@ project:
   resources:
     - CNAME
     - .nojekyll
+    - logo-login.jpg
 website:
   title: "Crayfisher"
   navbar:
