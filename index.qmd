@@ -12,7 +12,7 @@ At **Crayfisher**, we bridge the gap between deep domain expertise and AI-native
 :::
 
 ::: {.g-col-12 .g-col-md-5 .text-center}
-![](logo-large.png){width="90%" style="filter: drop-shadow(0 0 25px rgba(0, 188, 140, 0.25));"}
+![](logo-large.webp){width="90%" style="filter: drop-shadow(0 0 25px rgba(0, 188, 140, 0.25));"}
 :::
 :::::
 

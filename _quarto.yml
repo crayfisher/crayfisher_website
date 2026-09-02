@@ -1,10 +1,11 @@
 project:
   type: website
   output-dir: docs
-  # Copied verbatim into docs/ on every render so they are NOT wiped (CNAME binds
-  # GitHub Pages to crayfisher.com; .nojekyll stops Jekyll breaking site_libs).
+  # Copied verbatim into docs/ on every render so they are NOT wiped by the
+  # render's clean of docs/. (CNAME was dropped 2026-09-02 with the move off
+  # GitHub Pages to Caddy; .nojekyll is retained as a cheap Pages-rollback
+  # safety net -- it is inert under Caddy.)
   resources:
-    - CNAME
     - .nojekyll
     - logo-login.jpg
 website:
